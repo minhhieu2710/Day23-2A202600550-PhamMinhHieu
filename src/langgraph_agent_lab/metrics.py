@@ -1,3 +1,4 @@
+# ruff: noqa: E501
 """Metrics schema and helpers."""
 
 from __future__ import annotations

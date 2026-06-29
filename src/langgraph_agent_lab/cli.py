@@ -1,3 +1,4 @@
+# ruff: noqa: E501
 """CLI for the lab."""
 
 from __future__ import annotations
@@ -7,7 +8,7 @@ from pathlib import Path
 from typing import Annotated
 
 import typer
-import yaml
+import yaml  # type: ignore
 
 from .graph import build_graph
 from .metrics import MetricsReport, metric_from_state, summarize_metrics, write_metrics
